@@ -183,6 +183,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
 
+# Libshims
+PRODUCT_PACKAGES += \
+    fakelogprint
+
 # Lineage Health
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
