@@ -95,7 +95,6 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
 # Display
 PRODUCT_PACKAGES += \
-    android.hardware.graphics.composer@2.4-impl \
     android.hardware.graphics.composer@2.4-service
 
 PRODUCT_PACKAGES += \
@@ -137,9 +136,9 @@ PRODUCT_COPY_FILES += \
 
 # DRM
 PRODUCT_PACKAGES += \
+    android.hardware.drm-service.clearkey \
     android.hardware.drm@1.0-impl \
     android.hardware.drm@1.0-service-lazy \
-    android.hardware.drm@1.3-service-lazy.clearkey \
     android.hardware.drm@1.4.vendor
 
 # Fastbootd
@@ -298,7 +297,6 @@ PRODUCT_COPY_FILES += \
 
 # OMX
 PRODUCT_PACKAGES += \
-    android.hardware.media.omx@1.0-impl \
     android.hardware.media.omx@1.0-service \
     libOmxAacEnc \
     libOmxAmrEnc \
@@ -468,7 +466,6 @@ PRODUCT_PACKAGES += \
     qti-telephony-utils \
     qti_telephony_utils.xml \
     qti-telephony-utils-prd \
-    qti-telephony-utils_prd.xml \
     telephony-ext
 
 PRODUCT_BOOT_JARS += \
@@ -512,7 +509,7 @@ PRODUCT_COPY_FILES += \
 
 # WiFi
 PRODUCT_PACKAGES += \
-    android.hardware.wifi@1.0-service.legacy \
+    android.hardware.wifi-service \
     android.hardware.wifi.hostapd@1.0.vendor \
     hostapd \
     libwpa_client \
