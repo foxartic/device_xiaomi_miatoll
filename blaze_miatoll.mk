@@ -18,6 +18,7 @@ $(call inherit-product, device/xiaomi/miatoll/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # ProjectBlaze
+BLAZE_BUILD_TYPE := OFFICIAL
 BLAZE_MAINTAINER := clarencelol
 WITH_GAPPS := true
 
