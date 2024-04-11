@@ -7,9 +7,6 @@ ro.surface_flinger.supports_background_blur=0
 # Brightness Curve
 persist.sys.brightness.low.gamma=true
 
-# Charger
-ro.charger.enable_suspend=true
-
 # CNE
 persist.vendor.cne.feature=1
 
