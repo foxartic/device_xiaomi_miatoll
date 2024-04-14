@@ -757,12 +757,6 @@ vendor/lib64/vendor.qti.gnss@4.0.so
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 
-# HotwordEnrollment
-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
-system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
-system_ext/framework/com.android.hotwordenrollment.common.util.jar
-
 # IMS (system) - from LA.QSSI.14.0.r1-10000.01-qssi.0
 system_ext/app/ImsRcsService/ImsRcsService.apk|1977575947f7a786b05795028e3cb2ab7142ac5a
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml|bd9fc166b542b4e730f194ebc996957770d9d497
