@@ -36,6 +36,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     liba2dpoffload \
+    libaudioroute.vendor \
     libbatterylistener \
     libcomprcapture \
     libexthwplugin \
@@ -70,7 +71,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libMegviiFacepp-0.5.2 \
     libmegface \
-    libpiex_shim
+    libpiex_shim \
+    libpng.vendor
+
+# Cgroup
+PRODUCT_PACKAGES += \
+    libprocessgroup.vendor
 
 # DebugFS
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
@@ -134,6 +140,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libbatching \
+    libcurl.vendor \
     libgeofencing \
     libgnss
 
@@ -218,6 +225,7 @@ PRODUCT_COPY_FILES += \
 # Net
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.1.vendor \
+    libnetutils.vendor
 
 # Neural networks
 PRODUCT_PACKAGES += \
@@ -250,7 +258,8 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libOmxVdec \
     libOmxVenc \
-    libstagefrighthw
+    libstagefrighthw \
+    libstagefright_softomx_plugin.vendor
 
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
@@ -330,8 +339,11 @@ PRODUCT_PACKAGES += \
 
 # QMI
 PRODUCT_PACKAGES += \
+    libion.vendor \
     libjson \
+    libjsoncpp.vendor \
     libqti_vndfwk_detect.vendor \
+    libsqlite.vendor \
     libvndfwk_detect_jni.qti.vendor
 
 # RIL
