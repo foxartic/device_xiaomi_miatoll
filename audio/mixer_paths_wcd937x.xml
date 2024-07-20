@@ -402,10 +402,10 @@
     <ctl name="HPHR Volume" value="20" />
     <ctl name="EAR SPKR PA Gain" value="G_DEFAULT" />
 
-    <ctl name="TX_DEC0 Volume" value="92" />
-    <ctl name="TX_DEC1 Volume" value="92" />
-    <ctl name="TX_DEC2 Volume" value="92" />
-    <ctl name="TX_DEC3 Volume" value="92" />
+    <ctl name="TX_DEC0 Volume" value="94" />
+    <ctl name="TX_DEC1 Volume" value="94" />
+    <ctl name="TX_DEC2 Volume" value="94" />
+    <ctl name="TX_DEC3 Volume" value="94" />
     <ctl name="TX_DEC4 Volume" value="84" />
     <ctl name="TX_DEC5 Volume" value="84" />
     <ctl name="TX_DEC6 Volume" value="84" />
@@ -2884,6 +2884,15 @@
         <ctl name="ADC2 MUX" value="INP3" />
         <ctl name="IIR0 INP0 MUX" value="DEC0" />
     </path>
+    <path name="handset-mic-factory">
+        <ctl name="TX_DEC0 Volume" value="94" />
+        <path name="amic1" /> <!-- modify for using amic1 to factory test-->
+    </path>
+    <!--Add for add secondary-mic -->
+    <path name="secondary-mic-factory">
+        <ctl name="TX_DEC0 Volume" value="94" />
+        <path name="amic3" />
+    </path>
 
     <path name="headphones">
         <ctl name="RX_MACRO RX0 MUX" value="AIF1_PB" />
@@ -2931,7 +2940,7 @@
     </path>
 
     <path name="headset-mic">
-        <ctl name="TX_DEC0 Volume" value="92" />
+        <ctl name="TX_DEC0 Volume" value="94" />
         <path name="amic2" />
     </path>
 
@@ -3170,6 +3179,10 @@
         <path name="dmic-endfire" />
     </path>
 
+    <path name="camcorder-dmic">
+        <path name="dmic-endfire" />
+    </path>
+
     <path name="voice-speaker-dmic-ef">
         <path name="speaker-dmic-endfire" />
     </path>
@@ -3231,7 +3244,7 @@
         <ctl name="TX DMIC MUX2" value="DMIC1" />
         <ctl name="TX_AIF1_CAP Mixer DEC3" value="1" />
         <ctl name="TX DMIC MUX3" value="DMIC3" />
-        <ctl name="TX_DEC3 Volume" value="92" />
+        <ctl name="TX_DEC3 Volume" value="94" />
     </path>
 
     <path name="speaker-tmic">
@@ -3242,7 +3255,7 @@
         <ctl name="TX DMIC MUX2" value="DMIC0" />
         <ctl name="TX_AIF1_CAP Mixer DEC3" value="1" />
         <ctl name="TX DMIC MUX3" value="DMIC3" />
-        <ctl name="TX_DEC3 Volume" value="92" />
+        <ctl name="TX_DEC3 Volume" value="94" />
     </path>
 
     <path name="voice-speaker-tmic">
@@ -3258,7 +3271,7 @@
         <ctl name="TX DMIC MUX2" value="DMIC1" />
         <ctl name="TX_AIF1_CAP Mixer DEC3" value="1" />
         <ctl name="TX DMIC MUX3" value="DMIC3" />
-        <ctl name="TX_DEC3 Volume" value="92" />
+        <ctl name="TX_DEC3 Volume" value="94" />
         <ctl name="TX_AIF1_CAP Mixer DEC4" value="1" />
         <ctl name="TX DMIC MUX4" value="DMIC4" />
     </path>
