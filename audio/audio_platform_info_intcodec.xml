@@ -112,6 +112,8 @@
         <device name="SND_DEVICE_OUT_USB_HEADSET" acdb_id="10012"/>
         <device name="SND_DEVICE_OUT_USB_HEADPHONES" acdb_id="10012"/>
         <device name="SND_DEVICE_IN_VOICE_SPEAKER_MIC" acdb_id="11"/>
+        <device name="SND_DEVICE_IN_VOICE_SPEAKER_DMIC_DUO" acdb_id="10013"/>
+        <device name="SND_DEVICE_IN_VOICE_REC_HEADSET_MIC_CTS" acdb_id="10032"/>
     </acdb_ids>
     <backend_names>
         <device name="SND_DEVICE_OUT_HEADPHONES" backend="headphones" interface="RX_CDC_DMA_RX_0"/>
@@ -169,6 +171,12 @@
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER_WSA" interface="TERT_MI2S_RX"/>
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER_2_WSA" interface="TERT_MI2S_RX"/>
         <device name="SND_DEVICE_IN_HANDSET_MIC" interface="TX_CDC_DMA_TX_3"/>
+        <device name="SND_DEVICE_IN_HANDSET_MIC_FACTORY" interface="TX_CDC_DMA_TX_3"/>
+        <device name="SND_DEVICE_IN_SECONDARY_MIC_FACTORY" interface="TX_CDC_DMA_TX_3"/>
+        <device name="SND_DEVICE_IN_HANDSET_DMIC_VOICE" interface="TX_CDC_DMA_TX_3"/>
+        <device name="SND_DEVICE_IN_HANDSET_DMIC_MUSIC" interface="TX_CDC_DMA_TX_3"/>
+        <device name="SND_DEVICE_IN_HANDSET_DMIC_INTERVIEW" interface="TX_CDC_DMA_TX_3"/>
+        <device name="SND_DEVICE_IN_CAMCORDER_DMIC" interface="TX_CDC_DMA_TX_3"/>
         <device name="SND_DEVICE_IN_HANDSET_MIC_EXTERNAL" interface="TX_CDC_DMA_TX_3"/>
         <device name="SND_DEVICE_IN_HANDSET_MIC_AEC" interface="TX_CDC_DMA_TX_3"/>
         <device name="SND_DEVICE_IN_HANDSET_MIC_NS" interface="TX_CDC_DMA_TX_3"/>
