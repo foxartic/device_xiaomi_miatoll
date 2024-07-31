@@ -14,6 +14,7 @@ persist.arm64.memtag.system_server=off
 debug.hwui.skia_tracing_enabled=false
 
 # Display
+debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=0
 debug.performance.tuning=1
 
