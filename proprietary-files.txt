@@ -89,6 +89,8 @@ vendor/lib/libsurround_3mic_proc.so
 system_ext/etc/permissions/audiosphere.xml|015ad7be4921039238bfa3d34d052d752453e49c
 system_ext/framework/audiosphere.jar|ecfaddf551830ccb6f5b0b979a407eccc9305e94
 vendor/lib/soundfx/libasphere.so|b2daeb875914a33575c7d7a67429f25d09d35489
+vendor/lib/soundfx/libdirac.so|b2daeb875914a33575c7d7a67429f25d09d35489
+vendor/lib/soundfx/libmisoundfx.so|b2daeb875914a33575c7d7a67429f25d09d35489
 vendor/lib/soundfx/libshoebox.so|214d5fefd21c617bdfa05255fe667127b4242556
 
 # Battery
