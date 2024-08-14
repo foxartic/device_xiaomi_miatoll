@@ -221,6 +221,9 @@ PRODUCT_PACKAGES += \
 
 # Media (Dolby)
 PRODUCT_PACKAGES += \
+    XiaomiDolby
+
+PRODUCT_PACKAGES += \
     libavservices_minijail_vendor \
     libcodec2_soft_common.vendor \
     libsfplugin_ccodec_utils.vendor \
