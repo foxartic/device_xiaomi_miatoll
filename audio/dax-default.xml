@@ -336,7 +336,7 @@
         <peak-value value="256"/>
         <surround-decoder-enable value="false"/>
         <surround-boost value="30"/>
-        <volmax-boost value="57"/>
+        <volmax-boost value="103"/>
         <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
@@ -365,7 +365,7 @@
         <peak-value value="256"/>
         <surround-decoder-enable value="false"/>
         <surround-boost value="80"/>
-        <volmax-boost value="16"/>
+        <volmax-boost value="80"/>
         <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
@@ -434,7 +434,7 @@
         <mi-virtualizer-binaural-steering-enable value="false"/>
         <peak-value value="256"/>
         <surround-decoder-enable value="false"/>
-        <surround-boost value="30"/>
+        <surround-boost value="37"/>
         <volmax-boost value="80"/>
         <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
@@ -464,7 +464,7 @@
         <peak-value value="256"/>
         <surround-decoder-enable value="false"/>
         <surround-boost value="72"/>
-        <volmax-boost value="48"/>
+        <volmax-boost value="80"/>
         <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
@@ -534,7 +534,7 @@
         <peak-value value="256"/>
         <surround-decoder-enable value="false"/>
         <surround-boost value="0"/>
-        <volmax-boost value="40"/>
+        <volmax-boost value="64"/>
         <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
@@ -662,7 +662,7 @@
         <peak-value value="256"/>
         <surround-decoder-enable value="false"/>
         <surround-boost value="0"/>
-        <volmax-boost value="32"/>
+        <volmax-boost value="64"/>
         <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
@@ -1128,7 +1128,7 @@
         <peak-value value="256"/>
         <surround-decoder-enable value="false"/>
         <surround-boost value="0"/>
-        <volmax-boost value="49"/>
+        <volmax-boost value="98"/>
         <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
@@ -1156,8 +1156,8 @@
         <mi-virtualizer-binaural-steering-enable value="false"/>
         <peak-value value="256"/>
         <surround-decoder-enable value="false"/>
-        <surround-boost value="0"/>
-        <volmax-boost value="16"/>
+        <surround-boost value="64"/>
+        <volmax-boost value="64"/>
         <volume-leveler-enable value="false"/>
         <volume-leveler-amount value="0"/>
         <volume-leveler-in-target value="-256"/>
