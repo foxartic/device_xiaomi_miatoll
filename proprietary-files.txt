@@ -588,21 +588,27 @@ vendor/gpu/kbc/unified_kbcs_32.bin|503228f87adc71131aa8134659b00dffe073e973
 vendor/gpu/kbc/unified_kbcs_64.bin|d63c26959dc02b2efc251953e99dc6e7c32e7f6e
 vendor/gpu/kbc/unified_ksqs.bin|8f77dc004796d58acb959e78f4994c5d6b90baef
 
+# Graphics (Adreno) - from vayu V14.0.3.0.TJUMIXM
+vendor/lib/libCB.so|4af7c81bfbb963a3e5f0185225febc7294a3e262
+vendor/lib/libOpenCL.so|a8a3952c475cf214fec74c324e540ee800ee9727
+vendor/lib/libgpudataproducer.so|2f3348614ea21ed4548154d0ab52ca2256d28e80
+vendor/lib/libllvm-qcom.so|368a263e1477de260eb7e995ffbfcf6851d081e3
+vendor/lib64/libCB.so|9fc3275f8d5df3d2856892e76037c9f08fddb9f4
+vendor/lib64/libOpenCL.so|688a3a5f3fbece3eddc031e326aa0e3a7e58a091
+vendor/lib64/libgpudataproducer.so|a2ebbc621637de0a63b5a6663b02575cb394fcda
+vendor/lib64/libllvm-qcom.so|bd1fd50da1fc5099168049c10aba542389489e82
+
 # Graphics (Adreno) - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 vendor/lib/libC2D2.so|d4214e245b14bab83e548ee3823502462396fe4a
-vendor/lib/libOpenCL.so|92ba443e943e491f88f4b585f6f147d50377eb94
 vendor/lib/libVkLayer_q3dtools.so|19d40e4c5c6104e889acfff640ed9b68b02a8032
 vendor/lib/libadreno_app_profiles.so|c675243cc590091d5b520667fd9ea8b7dbb4c7c1
 vendor/lib/libc2d30_bltlib.so|8a307a717c60dece7e4272a19cb8757b52a8c9ba
 vendor/lib/libdmabufheap.so|f42972808368d229ea3cf913459a3e231abd6fe1
-vendor/lib/libgpudataproducer.so|28b76a626d4d89f2634753e98b73d5a3fb43a02c
 vendor/lib64/libC2D2.so|1eb43399606840ec844559be874c38dbd9f0c5e7
-vendor/lib64/libOpenCL.so|1809462d88a0e1a63553c6fcd5ea00ff75f1695b
 vendor/lib64/libVkLayer_q3dtools.so|0013a3267134a2a7a4005680e8f6c2dbcafaa898
 vendor/lib64/libadreno_app_profiles.so|6417afc92fc2c7206db256d2b0a21db6fae9c216
 vendor/lib64/libc2d30_bltlib.so|f64c7a4af7717da93fbefa7732e0e74e71915606
 vendor/lib64/libdmabufheap.so|9bfa239c6f2a419b3f8235c57e930c055f675bf8
-vendor/lib64/libgpudataproducer.so|84c99f42fc6a32a222fe49354cf9a14dae5951c6
 
 # Graphics (Adreno) - from eureka SQ3A.220605.009.A1
 vendor/lib/egl/eglSubDriverAndroid.so|2756a938b2cfe3ba2e86e83baa232a447f7f1642
@@ -612,14 +618,12 @@ vendor/lib/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib/libGLESv2_adreno.so|b306db
 vendor/lib/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib/libq3dtools_adreno.so|1def3c6872ba833666c71767e51dc221eaa3d90b
 vendor/lib/egl/libq3dtools_esx.so|538f81a95bd42bff4e0981878ee6dbadf95c9d9a
 vendor/lib/hw/vulkan.adreno.so|745dc99ae94098c04c0130d4234f64b8d8bd18fc
-vendor/lib/libCB.so|04bd2c4b963f6ae4f6aee064c9745c92c1cbd32d
 vendor/lib/libOpenCL_adreno.so|9547ab8abee71b80e1b77b6757e881e4f89c4bc1
 vendor/lib/libadreno_utils.so|9ec8f895f4aa60064bb60b67b212880840424c79
 vendor/lib/libgsl.so|55d1f940badef4190888bcd1381f11353465f17e
 vendor/lib/libkcl.so|5cd2da64a90f71e032b84578b068be5c1cc1deb0
 vendor/lib/libkernelmanager.so|8bcdbc05080bb155b17024bcf98402413a633768
 vendor/lib/libllvm-glnext.so|114150e08f617c757dfb3a5aff6c0f21d27da914
-vendor/lib/libllvm-qcom.so|dcfa205926303aed0e7238e03969d8132c9eb3c4
 vendor/lib/libllvm-qgl.so|9c58d06c45b721ef75883eead3eefe23105902e6
 vendor/lib64/egl/eglSubDriverAndroid.so|b4c357ae9538f72554b9a54b5b2d9de5fc5b054a
 vendor/lib64/egl/libEGL_adreno.so;SYMLINK=vendor/lib64/libEGL_adreno.so|8333d4965bdd967b81beab1769753343097f03ab
@@ -628,14 +632,12 @@ vendor/lib64/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib64/libGLESv2_adreno.so|2a
 vendor/lib64/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib64/libq3dtools_adreno.so|ff3b17ff91508f55441550013934e9467d9f44be
 vendor/lib64/egl/libq3dtools_esx.so|537fc41e083648a964bed95e05d1b37d01899ba1
 vendor/lib64/hw/vulkan.adreno.so|e7353cc083be9c7a12fba201c51558d808229c18
-vendor/lib64/libCB.so|a4289a467cf9f5eb6c033a6ac3d4d604d62eff8b
 vendor/lib64/libOpenCL_adreno.so|ff0c4bd5632b33a14bd0abb950a37dba10324cd5
 vendor/lib64/libadreno_utils.so|6d2011fae45f0daf1ec2c6c11c089fcc261781c6
 vendor/lib64/libgsl.so|3ee2d8cdc6b4954f120f3841f0e76e6963f1de66
 vendor/lib64/libkcl.so|d643b4d1b155751793a0eaa588cf9604e366c895
 vendor/lib64/libkernelmanager.so|e8ab3786a2d6e80f6b3a2b481bb4a0fbf71d87aa
 vendor/lib64/libllvm-glnext.so|d34f120bf4808cef8df13c72213bb759addb6ead
-vendor/lib64/libllvm-qcom.so|3ef90ac51d3e8a11f17629ab1b53ab8667231844
 vendor/lib64/libllvm-qgl.so|700db5c5d1d82e8646dccc00649fcba312e06fdb
 
 # Graphics (SDM)
