@@ -286,10 +286,6 @@ PRODUCT_PACKAGES += \
     TelephonyResCommon \
     WifiOverlay
 
-PRODUCT_PACKAGES += \
-    SM6250LineageDialer \
-    SM6250LineageSDK
-
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
@@ -414,7 +410,7 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
     hardware/google/pixel \
-    hardware/lineage/interfaces/power-libperfmgr \
+    hardware/blaze/interfaces/power-libperfmgr \
     hardware/qcom-caf/common/libqti-perfd-client \
     hardware/xiaomi
 
