@@ -21,9 +21,14 @@ TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 # Lineage
-TARGET_FACE_UNLOCK_SUPPORTED := true
-WITH_GAPPS := true
--include vendor/lineage-priv/keys/keys.mk
+MATRIXX_BUILD_TYPE := Unofficial
+MATRIXX_MAINTAINER := ITU
+WITH_GMS := true
+
+# Extra Matrixx Stuff
+MATRIXX_CHIPSET := SD720G
+MATRIXX_BATTERY := 5020mah
+MATRIXX_DISPLAY := 2400x1080
 
 PRODUCT_NAME := lineage_miatoll
 PRODUCT_DEVICE := miatoll
